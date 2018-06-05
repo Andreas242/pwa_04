@@ -1,0 +1,23 @@
+{
+  "name" : "PWA for dummies",
+  "short_name" : "PWA",
+  "orientation" : "portrait",
+"icons": [
+    {
+      "src": "/images/icons/color_wheel-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/color_wheel-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "background_color" : "white",
+  "theme_color" : "black",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}

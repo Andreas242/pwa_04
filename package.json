@@ -1,0 +1,17 @@
+{
+  "name": "PWA3",
+  "version": "1.0.0",
+  "description": "PWA Startup",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa"
+  ],
+  "author": "Andreas Ahlgren",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
