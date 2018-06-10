@@ -47,8 +47,7 @@
                     
                 </li>
                 <li>
-                    <a id="install">A2HS</a>
-                    
+                    <a id="install">A2HS</a>                  
                 </li>
             </ul>
         </nav>
@@ -67,6 +66,21 @@
 
 
         </section>
+        <section id="camera">
+            <canvas id="canvas" width="240px" height="180px"></canvas>
+            <div id="video">
+            <button onclick="getStream('video')">Start camera</button>
+            <video id="" autoplay style="height:180px; width: 240px;"/>
+          
+        </div>
+        <button id="captureVideo">Get that image</button>
+            <div id="imagePicker">
+                <input type="file" name="image"/>MY INPUTS
+
+            </div>
+            <div>Or pick one of these lovely images:</div>
+            <div id=""avatars></div>
+        </section>
 
     </div>
     <script>
@@ -79,5 +93,6 @@
         navButton.addEventListener('click', toggleNav); 
 </script>
 <script src="js/app.js"></script>
+<script src="js/cameracontrols.js"></script>
 
 </body>
